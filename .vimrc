@@ -265,7 +265,8 @@ set textwidth=100           " 100 is the new 80
 set wildmenu                " Show possible completions on command line
 set wildmode=list:longest,full " List all options and complete
 set wildignore=*.class,*.o,*~,*.pyc,.git,node_modules  " Ignore certain files in tab-completion
-:se mouse+=a					"mouse copy without line number
+set clipboard=unnamed
+:se mouse=a					"mouse copy without line number
 
 " ================ Persistent Undo ==================
 " Keep undo history across sessions, by storing in file.
